@@ -210,10 +210,15 @@ p.paragraph {
 }.socialproof {
 	padding: 90px 0;
 }
+
+.parent {
+  width: 250px;
+}
+
 .socialproof img {
-	max-width: 20%;
-        max-height: 20%;
-	margin-top: 45px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .socialproof .logos {
 	flex-wrap: wrap;
